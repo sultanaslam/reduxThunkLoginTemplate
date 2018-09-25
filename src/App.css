@@ -1,0 +1,62 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+.App {
+
+}
+.landing{
+	/*min-height: 100vh;*/
+	min-height: calc(100vh - 126px);
+	background: url('./img/landing.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;	
+	text-align: center;
+	font-family: Georgia, serif;
+	width: 100%;
+	margin: auto 0;
+	/*margin-bottom: 30px;*/
+	padding-top: 100px;
+	line-height: calc(100vh - 376px);
+}
+
+.login{
+	height: calc(100vh - 126px);
+	background: url('./img/loginBg.png') no-repeat;
+  background-size: cover;
+  background-position: center;	
+	text-align: center;
+	font-family: Georgia, serif;
+	width: 100%;
+}
+.main{
+	font-family: Georgia, serif;
+	width: 100%;
+	margin: 30px 0;
+}
+tbody{
+	font-family: arial;
+}
+.fx{
+	padding: 2px 6px 3px 6px;
+	border-radius: 40px;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	font-size: 0.8em;
+}
+
+footer{
+	height: 70px;
+	width: 100%;
+	padding: 20px;
+	/*position: fixed;*/
+	/*bottom: 0;*/
+}
+
+#page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: blue;
+  user-select: none;
+  cursor: pointer;
+}
